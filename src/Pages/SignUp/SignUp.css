@@ -1,0 +1,88 @@
+/* Overall page styling */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Light gray background for contrast */
+  color: #333; /* Dark gray text color */
+  padding: 20px;
+}
+
+/* Heading styling */
+.signup-container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Form styling */
+.signup-container form {
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input styling */
+.signup-container form div {
+  margin-bottom: 15px;
+}
+
+.signup-container form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555; /* Medium gray for labels */
+}
+
+.signup-container form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.signup-container form input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2); /* Blue shadow on focus */
+}
+
+/* Button styling */
+.signup-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-container form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Span styling */
+.signup-container span {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.signup-container span a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-container span a:hover {
+  text-decoration: underline;
+}

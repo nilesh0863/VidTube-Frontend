@@ -1,0 +1,122 @@
+.channel-profile .channel-header {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.channel-banner {
+  width: 98%;
+  height: 200px; /* Adjust as per your design */
+  object-fit: cover;
+  background-color: #f0f0f0;
+  margin: 1%;
+  border-radius: 30px;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  /* bottom: -20px;  */
+  left: 16px;
+}
+
+.channel-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-right: 16px;
+}
+
+.channel-info h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.channel-info p {
+  margin: 4px 0;
+  color: #606060;
+  font-size: 14px;
+}
+
+/* Channel Tabs */
+.channel-tabs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.channel-tabs button {
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #606060;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.channel-tabs button.active-tab {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+/* Channel Content */
+.channel-content {
+  margin-top: 34px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.video-section,
+.playlist-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+/* Video and Playlist Cards */
+.video-section .video-card,
+.playlist-section .playlist-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+}
+
+.video-section .video-card img,
+.playlist-section .playlist-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.video-section .video-card h3,
+.playlist-section .playlist-card h3 {
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.video-section .video-card p,
+.playlist-section .playlist-card p {
+  color: #606060;
+  font-size: 14px;
+}
+
+hr {
+  color: #606060;
+}
+
+.create-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}

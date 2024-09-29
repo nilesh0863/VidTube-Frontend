@@ -1,0 +1,115 @@
+.video-detail-container {
+  margin-top: 10px;
+}
+
+.action-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.subscribe-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-div h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.subscribe-div img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.subscribe-div div {
+  margin-right: 10px;
+}
+
+.subscribe-div div p {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.like-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.like-div img {
+  width: 25px;
+  margin-left: 20px;
+}
+
+.like-d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.like-d p {
+  margin-left: 5px;
+}
+
+.views-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #5a5a5a;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.disc {
+  color: #252525;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.like-on {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(100%) saturate(456%)
+    hue-rotate(171deg) brightness(101%) contrast(102%);
+}
+
+.subscribe {
+  background: red;
+  color: #fff;
+  padding: 8px 30px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.subscribed {
+  background: rgb(142, 141, 141);
+  color: #fff;
+  padding: 8px 30px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+@media (max-width: 900px) {
+  .vid-description {
+    padding-left: 0;
+  }
+  .play-video .play-video-info span {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .vid-info h4 {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+}
